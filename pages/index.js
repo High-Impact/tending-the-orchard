@@ -1,11 +1,10 @@
-import Header from '../shared/Header'
-import Footer from '../shared/Footer'
+import Layout from '../shared/PageLayout'
 
 const Index = () => (
   <div className="mainContainer">
-    <Header />
-    <p>Hello Matt</p>
-    <Footer />
+    <Layout>
+      <p>"Jons Jolly for Mels Jelly..."</p>
+    </Layout>
   </div>
 )
 
