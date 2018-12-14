@@ -1,12 +1,4 @@
-import Link from 'next/link'
-
-const LinkLI = (props) => (
-  <li>
-    <Link href={props.url}>
-      <a>{props.title}</a>
-    </Link>
-  </li>
-)
+import LinkLI from './LinkLI'
 
 const Navigation = () => (
   <nav className="navigationMenu">
@@ -16,6 +8,20 @@ const Navigation = () => (
       <LinkLI url="get-involved" title="Get Involved" />
       <LinkLI url="why-now" title="Why Now?" />
       <LinkLI url="why-the-campaign" title="Why The Campaign" />
+      <style jsx>{`
+        .navigationMenu {
+          display:flex;
+          justify-content:space-between;
+          align-items:flex-end;
+          list-style:none;
+          margin:0;
+        }
+        @media(max-width:797px) {
+          .navigationMenu {
+            display:none;
+          }
+        }
+        `}</style>
   </nav>
 )
 
