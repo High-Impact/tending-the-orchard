@@ -19,7 +19,7 @@ const Navigation = () => (
         @media(max-width:797px) {
           .navigationMenu {
             display:none;
-          }
+          } 
         }
         `}</style>
   </nav>

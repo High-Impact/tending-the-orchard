@@ -1,8 +1,11 @@
 import LinkLI from './LinkLI'
+const alertBot = (props) => {
+  document.querySelector('.MobileNavigationMenu').hide(300);
+}
 
 const MobileNavigation = () => (
-  <div className="totalMobile">
-    <div id="mobileTrigger">
+  <div className="totalMobile"onClick={alertBot}>
+    <div id="mobileTrigger" >
       <div className="line line0"></div>
       <div className="line line1"></div>
       <div className="line line2"></div>
@@ -25,7 +28,7 @@ const MobileNavigation = () => (
         list-style:none;
         margin:0;
         position:fixed;
-        right:0;
+        right:-00%;
         top:0;
         background:red;
         height:100vh;
