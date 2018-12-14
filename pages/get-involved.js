@@ -1,7 +1,11 @@
-const GetInvolved = () => (
+import Layout from '../shared/PageLayout'
+
+const getInvolved = () => (
   <div className="mainContainer">
-    <p>GetInvolved</p>
+    <Layout>
+      <p>getInvolved</p>
+    </Layout>
   </div>
 )
 
-export default GetInvolved
+export default getInvolved

@@ -1,7 +1,11 @@
-const WhyNow = () => (
+import Layout from '../shared/PageLayout'
+
+const whyNow = () => (
   <div className="mainContainer">
-    <p>WhyNow</p>
+    <Layout>
+      <p>whyNow</p>
+    </Layout>
   </div>
 )
 
-export default WhyNow
+export default whyNow

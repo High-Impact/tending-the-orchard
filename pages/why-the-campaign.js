@@ -1,7 +1,11 @@
-const WhyTheCampaign = () => (
+import Layout from '../shared/PageLayout'
+
+const whyTheCampign = () => (
   <div className="mainContainer">
-    <p>WhyTheCampaign</p>
+    <Layout>
+      <p>whyTheCampign</p>
+    </Layout>
   </div>
 )
 
-export default WhyTheCampaign
+export default whyTheCampign

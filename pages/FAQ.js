@@ -1,6 +1,10 @@
+import Layout from '../shared/PageLayout'
+
 const FAQ = () => (
   <div className="mainContainer">
-    <p>FAQ</p>
+    <Layout>
+      <p>FAQ</p>
+    </Layout>
   </div>
 )
 
