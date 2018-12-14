@@ -1,11 +1,14 @@
 import Link from 'next/link'
+import Navigation from './navigation'
 
 const Footer = (props) => (
-  <div className="mainContainer">
-    <h1>Footer</h1>
+  <div className="mainFooterContainer">
+    <div className="footerNav">
+      <Navigation />
+    </div>
     <style jsx>{`
-        .mainContainer {
-          background:pink;
+        .mainFooterContainer {
+          background:#7D504A;
         }
       `}</style>
   </div>

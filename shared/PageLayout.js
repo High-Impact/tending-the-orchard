@@ -9,6 +9,7 @@ const Layout = (props) => (
           {props.children}
         </div>
         <div className="sideBar">
+          <span className="cheating"></span>
           <h3>This is a sidebar</h3>
         </div>
       </div>
@@ -23,11 +24,25 @@ const Layout = (props) => (
       }
       .actualContent {
         margin:45px 0;
-        padding-right:45px;
+        padding-right:10%;
+        width:70%;
+        padding-right:10%;
       }
-      .sideBar {
-        background:#292727;
-        padding-top:45px;
+      .sideBar{
+        position:relative;
+        width: 30%;
+        padding: 45px 45px 0;
+        box-shadow:-2px 0px 2px 0px rgba(0, 0, 0, 0.025);
+        z-index:-1;
+      }
+      .cheating {
+          background:#65959C;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100vw;
+          height: 100%;
+          z-index: -1;
       }
       `}</style>
   </div>
