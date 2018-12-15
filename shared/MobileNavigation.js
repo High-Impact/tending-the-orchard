@@ -19,6 +19,9 @@ const MobileNavigation = () => (
       <LinkLI url="why-the-campaign" title="Why The Campaign" />
     </nav>
     <style jsx>{`
+      #mobileTrigger {
+        display:none;
+      }
       .line {
         height:.5em;
         width:1.5em;
@@ -28,7 +31,7 @@ const MobileNavigation = () => (
         list-style:none;
         margin:0;
         position:fixed;
-        right:-00%;
+        right:-100%;
         top:0;
         background:red;
         height:100vh;

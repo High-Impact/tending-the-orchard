@@ -12,6 +12,11 @@ const LinkLI = (props) => (
       li a{
         color:#E4E6E5;
         text-decoration:none;
+        transition: 0.3s;
+        opacity:1;
+      }
+      li a:hover {
+        opacity:.5 !important;
       }
       `}</style>
   </li>
