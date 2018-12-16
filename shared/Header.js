@@ -5,7 +5,7 @@ import MobileNavigation from './MobileNavigation'
 const Header = (props) => (
   <div className="header">
     <div className="mobile-center">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:700,700i|Sarala:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,700|Raleway:500,500i" rel="stylesheet" />
       <div className="logoContainer">
         <Link href="/">
           <img src="./static/logo.jpg" />
@@ -26,15 +26,23 @@ const Header = (props) => (
       }
       h1 {
         font-size:2.5em;
+        margin-bottom:1em;
+        font-weight:700;
       }
       h2 {
-        font-size:2em;
+        font-size:1.5em;
+        font-weight:300;
+        margin-bottom:1em;
       }
       h3 {
         font-size:1.25em;
       }
       p, soan, div {
-        font-family: 'Sarala', sans-serif;
+        font-family: 'Raleway', sans-serif;
+      }
+      p {
+        line-height:1.2;
+        margin-bottom:1em;
       }
       .header {
         background:#2E3742;
@@ -46,7 +54,7 @@ const Header = (props) => (
         justify-content:space-between;
       }
       .logoContainer {
-        width:40%;
+        width:25%;
       }
       .logoContainer img {
         max-width:100%;
