@@ -6,10 +6,6 @@ const Footer = (props) => (
     <div className="footerNav">
       <Navigation />
     </div>
-    <p>Website by <Link href="https://highimpact.design/" target="blank">
-      <a>High Impact Designs, LLC</a>
-    </ Link>
-    </p>
     <style jsx>{`
         .mainFooterContainer {
           background:#7D504A;

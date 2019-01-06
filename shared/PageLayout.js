@@ -43,6 +43,24 @@ const Layout = (props) => (
           height: 100%;
           z-index: -1;
       }
+      h3 {
+        animation: pulse 5s infinite;
+        padding:1em;
+        color:white;
+      }
+
+      @keyframes pulse {
+        0% {
+          background-color: #001F3F;
+        }
+        50% {
+          transform:scale(1.5);
+        }
+        100% {
+          background-color: #FF4136;
+        }
+      }
+
       `}</style>
   </div>
 )
