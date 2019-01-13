@@ -10,7 +10,6 @@ const Layout = (props) => (
         </div>
         <div className="sideBar">
           <span className="cheating"></span>
-          <h3>This is a sidebar</h3>
         </div>
       </div>
     <Footer />

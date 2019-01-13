@@ -44,6 +44,12 @@ const Header = (props) => (
         line-height:1.2;
         margin-bottom:1em;
       }
+      em {
+        font-style:italic;
+      }
+      strong {
+        font-weight:900;
+      }
       .header {
         background:#2E3742;
         box-shadow:0px -5px 19px 8px #00000061;
@@ -61,6 +67,26 @@ const Header = (props) => (
       }
       .logoContainer img:hover {
         cursor: pointer;
+      }
+      .halfAndHalfFourth {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .half {
+          width: 45%;
+          display: flex;
+          justify-content: space-between;
+          background: white;
+          padding: 1rem;
+          border-bottom: 1px solid #00000005;
+          box-shadow:0px 0px 8px 0px #00000005;
+      }
+      .altRow {
+        background:#efefef;
+      }
+      .lastRow {
+        border-bottom:0px;
+        margin-bottom:1rem;
       }
     `}</style>
   </div>

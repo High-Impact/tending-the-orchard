@@ -4,10 +4,10 @@ const Navigation = () => (
   <nav className="navigationMenu">
       <LinkLI url="/" title="Home" />
       <LinkLI url="church-history" title="Church History" />
-      <LinkLI url="FAQ" title="F.A.Q." />
-      <LinkLI url="get-involved" title="Get Involved" />
       <LinkLI url="why-now" title="Why Now?" />
       <LinkLI url="why-the-campaign" title="Why The Campaign" />
+      <LinkLI url="FAQ" title="F.A.Q." />
+      <LinkLI url="get-involved" title="Get Involved" />
       <style jsx>{`
         .navigationMenu {
           display:flex;
