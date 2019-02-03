@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Navigation from './navigation'
+import Navigation from './Navigation'
 import MobileNavigation from './MobileNavigation'
 
 const Header = (props) => (
