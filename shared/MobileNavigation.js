@@ -4,7 +4,7 @@ const alertBot = (props) => {
 }
 
 const MobileNavigation = () => (
-  <div className="totalMobile"onClick={alertBot}>
+  <div className="mobileNavigation"onClick={alertBot}>
     <div id="mobileTrigger" >
       <div className="line line0"></div>
       <div className="line line1"></div>

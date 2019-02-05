@@ -3,10 +3,10 @@ import Markdown from 'react-markdown'
 
 const Index = () => (
   <div className="mainContainer">
-    <Layout>
+    <Layout page="about">
       <Markdown source={`
 
-# Rooted in hope, Branching out
+# About
 
 __*At the Orchard, we believe God has called us as a church to grow alongside one another into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.*__
 

@@ -8,6 +8,7 @@ const LinkLI = (props) => (
     <style jsx>{`
       li {
         margin-left:1.5em;
+        float:right;
       }
       li a{
         color:#E4E6E5;

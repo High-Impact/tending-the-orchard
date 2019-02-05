@@ -2,12 +2,10 @@ import LinkLI from './LinkLI'
 
 const Navigation = () => (
   <nav className="navigationMenu">
-      <LinkLI url="/" title="Home" />
-      <LinkLI url="church-history" title="Church History" />
-      <LinkLI url="why-now" title="Why Now?" />
-      <LinkLI url="why-the-campaign" title="Why The Campaign" />
-      <LinkLI url="FAQ" title="F.A.Q." />
+      <LinkLI url="about" title="About" />
       <LinkLI url="get-involved" title="Get Involved" />
+      <LinkLI url="faq" title="F.A.Q." />
+      <LinkLI url="https://highimpact.design" title="Donate" />
       <style jsx>{`
         .navigationMenu {
           display:flex;
@@ -15,6 +13,9 @@ const Navigation = () => (
           align-items:flex-end;
           list-style:none;
           margin:0;
+        }
+        nav {
+          margin-left:auto;
         }
         @media(max-width:797px) {
           .navigationMenu {
