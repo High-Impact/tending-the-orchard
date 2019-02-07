@@ -8,14 +8,13 @@ const Footer = (props) => (
     </div>
     <style jsx>{`
         .mainFooterContainer {
-          background:#7D504A;
+          background:#350900;
           padding:2em 0;
           position:absolute:
           bottom:0;
           width:100%;
         }
         .footerNav {
-          width:50em;
           margin:auto;
           padding:0em 10em;
         }

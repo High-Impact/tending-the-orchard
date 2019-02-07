@@ -1,5 +1,6 @@
 import Header from './Header'
 import Footer from './Footer'
+import SideBar from './SideBar'
 
 const Layout = (props) => (
   <div className="mainContainer">
@@ -9,11 +10,8 @@ const Layout = (props) => (
           {props.children}
         </div>
         <div className="sideBar">
-        {  const pageNav = props.pageNav
-            if (pageNav) {
-              <h1>Page Name: {props.page}</h1>
-            }}
-
+          <SideBar pageName={props.page}/>
+          <h1>Page Name: {props.page}</h1>
           <span className="cheating"></span>
         </div>
       </div>

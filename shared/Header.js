@@ -50,8 +50,11 @@ const Header = (props) => (
       strong {
         font-weight:900;
       }
+      img {
+        max-width:100%;
+      }
       .header {
-        background:#2E3742;
+        background:#00432d;
         box-shadow:0px -5px 19px 8px #00000061;
         padding:2em 10em;
       }
