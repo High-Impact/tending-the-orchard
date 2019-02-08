@@ -1,11 +1,16 @@
-import Link from 'next/link'
+import React from 'react'
 
-const LinkLI = (props) => (
-  var isLoggedIn = props.pageName;
-  if (isLoggedIn == 'about') {
-    return 'string';
+export default class extends React.Component {
+  static async getInitialProps(props) {
+    const userAgent = {props.page};
+    return { userAgent }
   }
-  return 'not string';
-)
 
-export default LinkLI
+  render() {
+    return (
+      <div>
+        Hello World {this.props.userAgent}
+      </div>
+    )
+  }
+}

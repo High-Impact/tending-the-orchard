@@ -10,7 +10,7 @@ const Layout = (props) => (
           {props.children}
         </div>
         <div className="sideBar">
-          <SideBar pageName={props.page}/>
+          <SideBar page={props.page} />
           <h1>Page Name: {props.page}</h1>
           <span className="cheating"></span>
         </div>
