@@ -1,4 +1,4 @@
-import Layout from '../shared/PageLayout'
+import Layout from '../shared/layouts/PageLayout'
 
 const getInvolved = () => (
   <div className="mainContainer">

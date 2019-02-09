@@ -1,4 +1,4 @@
-import Layout from '../shared/PageLayout'
+import Layout from '../shared/layouts/PageLayout'
 
 const FAQ = () => (
   <div className="mainContainer">

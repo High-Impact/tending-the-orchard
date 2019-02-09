@@ -1,9 +1,9 @@
-import Layout from '../shared/PageLayout'
+import Layout from '../shared/layouts/PageLayout'
 import Markdown from 'react-markdown'
 
 const Index = () => (
   <div className="mainContainer">
-    <Layout page="about">
+    <Layout truthy='true'>
       <Markdown source={`
 
 # About

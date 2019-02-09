@@ -1,12 +1,12 @@
-import Layout from '../shared/PageLayout'
+import Layout from '../../shared/layouts/PageLayout'
 import Markdown from 'react-markdown'
 
 const churchHistory = () => (
   <div className="mainContainer">
-    <Layout>
+    <Layout truthy='true'>
     <Markdown source={`
 
-# Church History
+# Core Values
 
 __*In the Spring of 1994, a small group of Christ followers began to meet together for Bible study and worship, sensing God’s call to plant a new church.*__
 

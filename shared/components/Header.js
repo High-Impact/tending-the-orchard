@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Navigation from './Navigation'
-import MobileNavigation from './MobileNavigation'
+import Navigation from '../handlers/Navigation'
+import MobileNavigation from '../handlers/MobileNavigation'
 
 const Header = (props) => (
   <div className="header">
@@ -8,7 +8,7 @@ const Header = (props) => (
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700|Raleway:500,500i" rel="stylesheet" />
       <div className="logoContainer">
         <Link href="/">
-          <img src="./static/logo.jpg" />
+          <img src="/static/logo.jpg" />
         </Link>
       </div>
       <Navigation />

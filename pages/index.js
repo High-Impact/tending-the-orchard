@@ -1,5 +1,5 @@
-import Header from '../shared/Header'
-import Footer from '../shared/Footer'
+import Header from '../shared/components/Header'
+import Footer from '../shared/components/Footer'
 import Link from 'next/link'
 
 const Index = () => (

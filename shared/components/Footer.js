@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Navigation from './Navigation'
+import Navigation from '../handlers/Navigation'
 
 const Footer = (props) => (
   <div className="mainFooterContainer">

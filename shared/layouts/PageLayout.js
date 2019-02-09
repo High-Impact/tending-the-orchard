@@ -1,6 +1,6 @@
-import Header from './Header'
-import Footer from './Footer'
-import SideBar from './SideBar'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import SideBar from '../handlers/SideBar'
 
 const Layout = (props) => (
   <div className="mainContainer">
@@ -10,8 +10,7 @@ const Layout = (props) => (
           {props.children}
         </div>
         <div className="sideBar">
-          <SideBar page={props.page} />
-          <h1>Page Name: {props.page}</h1>
+          <SideBar showSideBar={props.truthy} />
           <span className="cheating"></span>
         </div>
       </div>
@@ -32,7 +31,6 @@ const Layout = (props) => (
         width: 30%;
         padding: 5em 10em 5em 5em;
         box-shadow:-2px 0px 2px 0px rgba(0, 0, 0, 0.025);
-        z-index:-1;
       }
       .cheating {
           background:#E4E6E5;
@@ -42,23 +40,6 @@ const Layout = (props) => (
           width: 100%;
           height: 100%;
           z-index: -1;
-      }
-      h3 {
-        animation: pulse 5s infinite;
-        padding:1em;
-        color:white;
-      }
-
-      @keyframes pulse {
-        0% {
-          background-color: #001F3F;
-        }
-        50% {
-          transform:scale(1.5);
-        }
-        100% {
-          background-color: #FF4136;
-        }
       }
 
       `}</style>
