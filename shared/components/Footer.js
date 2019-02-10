@@ -5,6 +5,10 @@ const Footer = (props) => (
   <div className="mainFooterContainer">
     <div className="footerNav">
       <Navigation />
+      <p>CC 2019 The Orcahrd Church McHenry, IL</p>
+      <Link herf="https://highimpact.design">
+        <a>Website By High Impact Designs, LLC</a>
+      </Link>
     </div>
     <style jsx>{`
         .mainFooterContainer {
@@ -17,20 +21,26 @@ const Footer = (props) => (
         .footerNav {
           margin:auto;
           padding:0em 10em;
+          max-width:25em;
+          text-align:center;
         }
         .mainFooterContainer a {
-          color:#E4E6E5;
+          color:white;
           text-decoration:none;
           transition: 0.3s;
+          text-align:center;
+          margin:auto;
           opacity:1;
+          font-size:.8em;
         }
         .mainFooterContainer a:hover {
           opacity:.5;
         }
         .mainFooterContainer p {
           text-align:center;
-          padding:1em 10em;
-          color:#E4E6E5;
+          color:white;
+          margin-bottom:.25em;
+          margin-top:2em;
         }
       `}</style>
   </div>
