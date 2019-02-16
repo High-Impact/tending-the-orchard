@@ -19,15 +19,15 @@ const Index = () => (
         </div>
       </div>
       <div className="row">
-        <div className="coulmn-half text-center ">
+        <div className="coulmn-half text-center leftHalf">
           <img src="./static/triangle.png" className="triangle" />
-          <h3>$50,000</h3>
-          <p>Funds Raised</p>
+          <h3 className="money">$50,000</h3>
+          <p className="moneyP">Funds Raised</p>
         </div>
         <div className="coulmn-half text-center">
           <img src="./static/triangle.png" className="triangle" />
-          <h3>$100,000</h3>
-          <p>Debt Remaining</p>
+          <h3 className="money dark">$100,000</h3>
+          <p className="moneyP">Debt Remaining</p>
         </div>
       </div>
       <div className="row">
@@ -41,22 +41,30 @@ const Index = () => (
         </div>
       </div>
       <div className="row">
+      <Link href="/about/who-we-are">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
-          <h3>Fourths</h3>
+            <img src="./static/hero-img.jpg" />
+            <h3>/about/who-we-are</h3>
         </div>
+        </Link>
+        <Link href="/about/core-values">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
-          <h3>Fourths</h3>
+            <img src="./static/hero-img.jpg" />
+            <h3>/about/core-values</h3>
         </div>
+        </Link>
+        <Link href="/about/church-history">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
-          <h3>Fourths</h3>
+            <img src="./static/hero-img.jpg" />
+            <h3>/about/church-history</h3>
         </div>
+        </Link>
+        <Link href="/about/testimonies">
         <div className="coulmn-fourth last">
-          <img src="./static/hero-img.jpg" />
-          <h3>Fourths</h3>
+            <img src="./static/hero-img.jpg" />
+            <h3>/about/testimonies</h3>
         </div>
+        </Link>
       </div>
     </div>
     <Footer />
@@ -139,6 +147,22 @@ const Index = () => (
       }
       .triangle {
         opacity:.9;
+        filter: grayscale(80%);
+      }
+      .leftHalf {
+        border-right:1px solid #350900;
+      }
+      .money {
+        font-weight:900;
+        font-size:3em;
+        margin:4rem 0em;
+        color:#00432d;
+      }
+      .money.dark {
+        color:#350900;
+      }
+      .moneyP {
+        font-style:italic;
       }
     `}</style>
   </div>

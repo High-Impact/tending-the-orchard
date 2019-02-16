@@ -17,6 +17,7 @@ const Footer = (props) => (
         .footerNav {
           margin:auto;
           padding:0em 10em;
+          max-width:45em;
         }
         .mainFooterContainer a {
           color:#E4E6E5;

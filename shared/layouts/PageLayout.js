@@ -41,7 +41,13 @@ const Layout = (props) => (
           height: 100%;
           z-index: -1;
       }
-
+      ol {
+        margin-bottom:1em;
+      }
+      li {
+        margin: 0em 0 1em 2em;
+        line-height: 1.4;
+      }
       `}</style>
   </div>
 )
