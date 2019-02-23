@@ -8,6 +8,8 @@ const Index = () => (
 
 # About
 
+![](/static/staff.jpg)
+
 __*At the Orchard, we believe God has called us as a church to grow alongside one another into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.*__
 
 It is a beautiful picture; rooted in Christ, growing in Christ, sharing Christ. As individual believers,

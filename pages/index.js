@@ -7,51 +7,70 @@ const Index = () => (
     <Header />
     <div className="hero">
       <div className="header-shadow"></div>
-      <h1 className="hero-header">Tending The Orchard</h1>
     </div>
     <div className="container">
-      <div className="row">
+      <div className="row callOutR">
         <div className="coulmn-full text-center">
+<<<<<<< HEAD
           <h2>Rooted in Hope, Branching Out</h2>
           <p>At the Orchard, we believe God has called us as a church to grow alongside one another
 into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.</p>
+=======
+          <h1 className="callOut">Tending the Orchard</h1>
+          <h2 className="callOut2">At the Orchard, we believe God has called us as a church to grow alongside one another into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.</h2>
+          <Link href="/about">
+            <a className="callOutBtn">Learn More</a>
+          </Link>
+>>>>>>> 2fa966f3dc91534ae6bc65a971bf4d067ff51963
         </div>
       </div>
       <div className="row">
-        <div className="coulmn-half text-center">
-          <h2>$50,000</h2>
+        <div className="coulmn-half text-center leftHalf">
+          <img src="./static/triangle.png" className="triangle" />
+          <h3 className="money">$50,000</h3>
+          <p className="moneyP">Funds Raised</p>
         </div>
         <div className="coulmn-half text-center">
-          <h2>$100,000</h2>
+          <img src="./static/triangle.png" className="triangle" />
+          <h3 className="money dark">$100,000</h3>
+          <p className="moneyP">Debt Remaining</p>
         </div>
       </div>
       <div className="row">
-        <div className="coulmn-full ">
-          <h2>Hello</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-          <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-          <Link href='get-involved'>
-            <a>Learn More.</a>
+        <div className="coulmn-full text-center">
+          <h2 className="callOut overview" >Campaign Overview</h2>
+          <p className="information callOut2">In the Spring of 1994, a small group of Christ followers began to meet together for Bible study and worship, sensing God’s call to plant a new church.</p>
+          <p className="information callOut2">Momentum grew and out of the faithfulness, obedience and sacrifice of this small group God blessed and grew them in number and maturity. By September, they began renting a space at 4041 Albany in McHenry, IL and officially incorporated as StoneRidge Community Church on December 21, 1994.</p>
+          <Link href='/about/campaign-overview'>
+            <a className="callOutBtn overview">Learn More</a>
           </Link>
         </div>
       </div>
       <div className="row">
+      <Link href="/about/who-we-are">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
-          <h3>Fourths</h3>
+            <img src="./static/hero-img.jpg" />
+            <h3>/about/who-we-are</h3>
         </div>
+        </Link>
+        <Link href="/about/core-values">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
-          <h3>Fourths</h3>
+            <img src="./static/hero-img.jpg" />
+            <h3>/about/core-values</h3>
         </div>
+        </Link>
+        <Link href="/about/church-history">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
-          <h3>Fourths</h3>
+            <img src="./static/hero-img.jpg" />
+            <h3>/about/church-history</h3>
         </div>
+        </Link>
+        <Link href="/about/testimonies">
         <div className="coulmn-fourth last">
-          <img src="./static/hero-img.jpg" />
-          <h3>Fourths</h3>
+            <img src="./static/hero-img.jpg" />
+            <h3>/about/testimonies</h3>
         </div>
+        </Link>
       </div>
     </div>
     <Footer />
@@ -79,7 +98,7 @@ into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to t
         text-align:center;
       }
       .row {
-        padding:2em 10em;
+        padding:4em 10em;
         display:flex;
 
       }
@@ -95,6 +114,61 @@ into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to t
       }
       .last {
         margin-right:0;
+      }
+      .callOutR {
+        background:#350900f2;
+        padding: 4em 2em;
+        color:#f4f4f4bd;
+      }
+      .callOut {
+        margin:0;
+        font-family: 'Dancing Script', cursive;
+        margin-bottom:.5em;
+      }
+      .callOut2 {
+        max-width:45em;
+        margin:auto;
+        font-weight:unset;
+        font-size:1.25em;
+        line-height:1.3;
+        margin-bottom:1.5em;
+      }
+      .callOutBtn {
+        border:1px solid white;
+        padding:.25em .5em;
+        color:#f4f4f4bd;
+        text-decoration:none;
+      }
+      .information {
+        max-width:45em;
+        margin:auto;
+        margin-bottom:1.5em;
+      }
+      .overview {
+        color:#292727;
+        border-color:#292727;
+      }
+      .callOut.overview {
+        font-size:2.5rem;
+      }
+      .triangle {
+        opacity:.9;
+        filter: grayscale(80%);
+      }
+      .leftHalf {
+        border-right:1px solid #350900;
+      }
+      .money {
+        font-weight:900;
+        font-size:3em;
+        margin:4rem 0em;
+        color:#00432d;
+      }
+      .money.dark {
+        color:#350900;
+      }
+      .moneyP {
+        font-style:italic;
       }
     `}</style>
   </div>

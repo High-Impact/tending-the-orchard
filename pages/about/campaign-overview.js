@@ -8,22 +8,34 @@ const churchHistory = () => (
 
 # Campaign Overview
 
-__*In the Spring of 1994, a small group of Christ followers began to meet together for Bible study and worship, sensing God’s call to plant a new church.*__
+__*As the elders pray about where God is leading, we are continually directed to strengthening the body and reaching others with the Good News of Jesus Christ.*__
 
-Momentum grew and out of the faithfulness, obedience and sacrifice of this small group God blessed and grew them in number and maturity. By September, they began renting a space at 4041 Albany in McHenry, IL and officially incorporated as StoneRidge Community Church on December 21, 1994.
+Our vision is still the same: *Making Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.*
 
-Over the next 10 years, the church rented various schools around McHenry to worship. In 2003, the church began their partnership with the Baptist General Conference (now called Converge). This partnership would prove to be a blessing to both parties and critically important to the church.
+Among many exciting possibilities, we feel a part of this vision may involve being in a new location which is more visible to the community, is closer to a neighborhood, and would also have dedicated space for children to play inside and outside.
 
-In 2004, a bold move was made and the property we currently worship in at 768 Ridgeview Dr. was purchased. Initially, this included only the sanctuary and office sides of our current facility.
+Yet, even as we dream about this possibility, we have a major obstacle at this time. We believe our mortgage debt is limiting our opportunities as a church and, while it may have been necessary at the time, it is not God-honoring today.
 
-2005-2007 would prove to be challenging years for the church. Two lead pastors resigned under difficult circumstances and many families left the church. Attendance decreased dramatically. During this time, the name of the church was changed from StoneRidge to The Orchard and officially underwent a “re-start”. At this critical time, believing in the Lord’s purpose for The Orchard, Converge stepped in to provide key leadership and support. This included supplying an interim to preach, help searching for a new pastor and a continued presence serving on an advisory team for The Orchard.
+We are proposing to engage in a Capital Campaign for the purpose of mortgage debt elimination and corporate spiritual growth.
 
+__This will:__
 
-This would prove to be key as the Lord began to bring stability and health back to The Orchard. After a successful church plant in Rogers Park, on the north side of Chicago, Converge helped bring Tim Beavis to The Orchard in August of 2007. Growth began again and to accommodate the needs of the body the portion of the building with Family Ministry Center was purchased and dedicated on October 2008. Less than a year later, Scott Swanson joined the pastoral team in July of 2009 as Pastor of Family Ministries.
+1. Align us with a Biblical perspective on debt
+2. Fulfill our financial commitment to repay Converge who has extended the loan
+3. Create flexibility for the church in the future
 
-During the following years, many areas were strengthened such as children’s ministry and worship. A youth ministry developed and missions became a core part of the culture of The Orchard.
+__Through this process we believe we will:__
 
+1. Experience personal spiritual growth as we give sacrificially to the Lord.
+2. Experience growth in fellowship as we sacrifice together for the Lord.
+
+It is time to be about the work of Tending The Orchard, to clear away that which is hindering so we may continue to grow and bear much fruit.
+
+We are engaging in this Capital Campaign for the purpose of mortgage debt elimination and corporate spiritual growth. Successful completion of this campaign will free $60,000 a year we currently allocate to mortgage payments. Payments which are scheduled through June 2041.
+
+Instead, we will complete repayment of the mortgage at the end of the 3-year Capital Campaign. Not only will this free that $60,000 dollars annually, money currently allocated to our mortgage, it will save over $500,000 in interest payments accrued over the natural course of the original loan.
       `} />
+
 
     </Layout>
   </div>
