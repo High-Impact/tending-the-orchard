@@ -9,6 +9,10 @@ const Navigation = () => (
       <Li url="/about/testimonies" title="Testimonies" />
       <Li url="/about/campaign-overview" title="Campaign Overview" />
       <style jsx>{`
+        ul {
+          list-style:none;
+          margin:0;
+        }
         `}</style>
   </ul>
 )

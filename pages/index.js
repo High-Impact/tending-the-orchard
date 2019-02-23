@@ -11,17 +11,11 @@ const Index = () => (
     <div className="container">
       <div className="row callOutR">
         <div className="coulmn-full text-center">
-<<<<<<< HEAD
-          <h2>Rooted in Hope, Branching Out</h2>
-          <p>At the Orchard, we believe God has called us as a church to grow alongside one another
-into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.</p>
-=======
           <h1 className="callOut">Tending the Orchard</h1>
           <h2 className="callOut2">At the Orchard, we believe God has called us as a church to grow alongside one another into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.</h2>
           <Link href="/about">
             <a className="callOutBtn">Learn More</a>
           </Link>
->>>>>>> 2fa966f3dc91534ae6bc65a971bf4d067ff51963
         </div>
       </div>
       <div className="row">

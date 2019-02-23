@@ -20,14 +20,14 @@ We are proposing to engage in a Capital Campaign for the purpose of mortgage deb
 
 __This will:__
 
-1. Align us with a Biblical perspective on debt
-2. Fulfill our financial commitment to repay Converge who has extended the loan
-3. Create flexibility for the church in the future
+- Align us with a Biblical perspective on debt
+- Fulfill our financial commitment to repay Converge who has extended the loan
+- Create flexibility for the church in the future
 
 __Through this process we believe we will:__
 
-1. Experience personal spiritual growth as we give sacrificially to the Lord.
-2. Experience growth in fellowship as we sacrifice together for the Lord.
+- Experience personal spiritual growth as we give sacrificially to the Lord.
+- Experience growth in fellowship as we sacrifice together for the Lord.
 
 It is time to be about the work of Tending The Orchard, to clear away that which is hindering so we may continue to grow and bear much fruit.
 
@@ -35,7 +35,6 @@ We are engaging in this Capital Campaign for the purpose of mortgage debt elimin
 
 Instead, we will complete repayment of the mortgage at the end of the 3-year Capital Campaign. Not only will this free that $60,000 dollars annually, money currently allocated to our mortgage, it will save over $500,000 in interest payments accrued over the natural course of the original loan.
       `} />
-
 
     </Layout>
   </div>

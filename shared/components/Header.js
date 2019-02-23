@@ -50,6 +50,10 @@ const Header = (props) => (
       strong {
         font-weight:900;
       }
+      ul, ol {
+        margin-bottom:1.5em !important;
+        margin-left:10px;
+      }
       img {
         max-width:100%;
       }
