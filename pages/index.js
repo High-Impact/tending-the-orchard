@@ -33,36 +33,38 @@ const Index = () => (
       <div className="row">
         <div className="coulmn-full text-center">
           <h2 className="callOut overview" >Campaign Overview</h2>
-          <p className="information callOut2">In the Spring of 1994, a small group of Christ followers began to meet together for Bible study and worship, sensing God’s call to plant a new church.</p>
-          <p className="information callOut2">Momentum grew and out of the faithfulness, obedience and sacrifice of this small group God blessed and grew them in number and maturity. By September, they began renting a space at 4041 Albany in McHenry, IL and officially incorporated as StoneRidge Community Church on December 21, 1994.</p>
+          <p className="information callOut2">As the elders pray about where God is leading, we are continually directed to strengthening the body and reaching others with the Good News of Jesus Christ. Our vision is still the same: Making Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.</p>
           <Link href='/about/campaign-overview'>
             <a className="callOutBtn overview">Learn More</a>
           </Link>
         </div>
       </div>
-      <div className="row">
+      <div className="row rule">
+        <hr />
+      </div>
+      <div className="row text-center fourths">
       <Link href="/about/who-we-are">
         <div className="coulmn-fourth">
-            <img src="./static/hero-img.jpg" />
-            <h3>/about/who-we-are</h3>
+          <img src="./static/hero-img.jpg" />
+          <h3>Who We Are</h3>
         </div>
         </Link>
         <Link href="/about/core-values">
         <div className="coulmn-fourth">
-            <img src="./static/hero-img.jpg" />
-            <h3>/about/core-values</h3>
+          <img src="./static/hero-img.jpg" />
+          <h3>Core Values</h3>
         </div>
         </Link>
         <Link href="/about/church-history">
         <div className="coulmn-fourth">
-            <img src="./static/hero-img.jpg" />
-            <h3>/about/church-history</h3>
+          <img src="./static/hero-img.jpg" />
+          <h3>Church History</h3>
         </div>
         </Link>
         <Link href="/about/testimonies">
         <div className="coulmn-fourth last">
-            <img src="./static/hero-img.jpg" />
-            <h3>/about/testimonies</h3>
+          <img src="./static/hero-img.jpg" />
+          <h3>Testimonies</h3>
         </div>
         </Link>
       </div>
@@ -74,7 +76,8 @@ const Index = () => (
         overflow:hidden;
         min-height:60vh;
         max-height:60vh;
-        background:url("./static/hero-img.jpg")
+        background:url("./static/hero-img.jpg");
+        background-size:cover;
       }
       .header-shadow {
         position:absolute;
@@ -91,10 +94,13 @@ const Index = () => (
       .text-center {
         text-align:center;
       }
+      .rule hr {
+        width: 100%;
+        border-color: #ffffff61;
+      }
       .row {
         padding:4em 10em;
         display:flex;
-
       }
       .coulmn-full {
         width:100%;
@@ -110,9 +116,9 @@ const Index = () => (
         margin-right:0;
       }
       .callOutR {
-        background:#350900f2;
+        background:#350900;
         padding: 4em 2em;
-        color:#f4f4f4bd;
+        color:white;
       }
       .callOut {
         margin:0;
@@ -130,8 +136,12 @@ const Index = () => (
       .callOutBtn {
         border:1px solid white;
         padding:.25em .5em;
-        color:#f4f4f4bd;
+        color:white;
         text-decoration:none;
+        transition:500ms;
+      }
+      .callOutBtn:hover {
+        opacity:.5;
       }
       .information {
         max-width:45em;
@@ -148,9 +158,10 @@ const Index = () => (
       .triangle {
         opacity:.9;
         filter: grayscale(80%);
+        min-width: unset;
       }
       .leftHalf {
-        border-right:1px solid #350900;
+        border-right: 1px solid #00000026;
       }
       .money {
         font-weight:900;
@@ -163,6 +174,19 @@ const Index = () => (
       }
       .moneyP {
         font-style:italic;
+      }
+      .fourths h3 {
+        font-weight:700;
+        margin-top:.5em;
+        font-size:2em;
+      }
+      .fourths div {
+        cursor: pointer;
+        transition:500ms;
+      }
+      .fourths div:hover {
+        opacity:.5;
+        transform:scale(.9);
       }
     `}</style>
   </div>

@@ -13,13 +13,17 @@ const LinkLI = (props) => (
         font-weight: 900;
       }
       li a{
-        color:#E4E6E5;
+        color:#00432d;
         text-decoration:none;
         transition: 0.3s;
         opacity:1;
       }
       li a:hover {
         opacity:.5 !important;
+      }
+      .navigationMenu > :nth-last-child(1) {
+        border-left: 2px solid #350800!important;
+        padding-left: 1em;
       }
       `}</style>
   </li>

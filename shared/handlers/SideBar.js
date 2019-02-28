@@ -1,4 +1,5 @@
 import AboutSideBar from '../components/AboutSideBar'
+import NormalSideBar from '../components/NormalSideBar'
 
 
 import React from 'react'
@@ -13,17 +14,17 @@ export default class extends React.Component {
 
   render() {
     const showSideBar = this.state.showSideBar;
-    let button;
+    let sideBar;
 
     if (showSideBar) {
-      button = <AboutSideBar />;
+      sideBar = <AboutSideBar />;
     } else {
-      button = null;
+      sideBar = <NormalSideBar />;
     }
 
     return (
       <div>
-        {button}
+        {sideBar}
       </div>
     );
 

@@ -7,9 +7,12 @@ const Footer = (props) => (
       <Navigation />
       <hr />
       <p>CC 2019 The Orcahrd Church McHenry, IL</p>
-      <Link herf="https://highimpact.design">
+      <Link herf="http://highimpact.design">
         <a>Website By High Impact Designs, LLC</a>
       </Link>
+      <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="../static/js/currentLink.js"></script>
     </div>
     <style jsx>{`
         .mainFooterContainer {
@@ -43,6 +46,10 @@ const Footer = (props) => (
           color:white;
           margin-bottom:.25em;
           margin-top:2em;
+        }
+        hr {
+          margin:2em 0;
+          opacity:.5;
         }
       `}</style>
   </div>

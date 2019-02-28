@@ -2,7 +2,7 @@ import Layout from '../../shared/layouts/PageLayout'
 import Markdown from 'react-markdown'
 
 const churchHistory = () => (
-  <div className="mainContainer">
+  <div className="mainContainer about">
     <Layout truthy='true'>
     <Markdown source={`
 

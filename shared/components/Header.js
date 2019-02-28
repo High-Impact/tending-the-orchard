@@ -8,7 +8,7 @@ const Header = (props) => (
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Open+Sans:400,600,700,800" rel="stylesheet" />
       <div className="logoContainer">
         <Link href="/">
-          <img src="/static/logo.jpg" />
+          <img src="/static/fav_icon.png" />
         </Link>
       </div>
       <Navigation />
@@ -55,12 +55,13 @@ const Header = (props) => (
         margin-left:10px;
       }
       img {
+        min-width:100%;
         max-width:100%;
       }
       .header {
-        background:#00432d;
-        box-shadow:0px -5px 19px 8px #00000061;
-        padding:2em 10em;
+        background:white;
+        box-shadow:0px -5px 19px 8px #0000001f;
+        padding:1em 10em;
       }
       .mobile-center {
         display:flex;
@@ -70,7 +71,8 @@ const Header = (props) => (
         width:25%;
       }
       .logoContainer img {
-        max-width:100%;
+        width:4em;
+        min-width:4em;
       }
       .logoContainer img:hover {
         cursor: pointer;
@@ -97,6 +99,24 @@ const Header = (props) => (
       }
       .mobileNavigation {
         display:none;
+      }
+      .footerNav a {
+        color:white !important
+      }
+      .about.mainContainer p img {
+        float: right;
+        max-width: 30%;
+        min-width: 6em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+        clear: both;
+      }
+      .about strong {
+        margin-top:2em;
+      }
+      .active {
+        opacity:.5 !important;
+        text-decoration:underline;
       }
       @media(max-width:767px) {
         .mobileNavigation {
