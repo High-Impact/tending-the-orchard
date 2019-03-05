@@ -13,6 +13,7 @@ const Footer = (props) => (
       <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="../static/js/currentLink.js"></script>
+      <script src="../static/js/mobileMenu.js"></script>
     </div>
     <style jsx>{`
         .mainFooterContainer {
