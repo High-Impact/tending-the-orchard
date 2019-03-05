@@ -17,7 +17,7 @@ const Navigation = () => (
         nav {
           margin-left:auto;
         }
-        @media only screen and (min-width: 900px) {
+        @media only screen and (max-width: 900px) {
           .navigationMenu {
             display:none !important;
           }

@@ -146,22 +146,7 @@ const Header = (props) => (
         .slideOutBackground.visable {
           display:block;
         }
-        .svg-icon {
-          width: 1em;
-          height: 1em;
-        }
-
-        .svg-icon path,
-        .svg-icon polygon,
-        .svg-icon rect {
-          fill: #4691f6;
-        }
-
-        .svg-icon circle {
-          stroke: #4691f6;
-          stroke-width: 1;
-        }
-        @media only screen and (min-width: 900px) {
+        @media only screen and (max-width: 900px) {
           .hero {
     max-height: 25vh !important;
     min-height: 25vh !important;
