@@ -4,6 +4,8 @@ import MobileNavigation from '../handlers/MobileNavigation'
 
 const Header = (props) => (
   <div className="header">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="../../static/css/mobileMenu.css" />
     <div className="mobile-center">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Open+Sans:400,600,700,800" rel="stylesheet" />
       <div className="logoContainer">
@@ -118,79 +120,6 @@ const Header = (props) => (
         opacity:.5 !important;
         text-decoration:underline;
       }
-      @media(max-width:767px) {
-        .mobileNavigation {
-          display:block;
-        }
-      }
-      .mobileNvigationMenu.showing li a {
-            font-size: 3em;
-            color: white !important;
-            line-height: 2;
-        }
-        .mobileNvigationMenu.showing li {
-          padding: 0 0 1em 4em;
-        }           
-        .slideOutBackground p {
-            position: fixed;
-            z-index: 99999999999;
-            color: white;
-            font-size: 3em;
-            font-weight: 900;
-            top: 1.5em;
-            right: 1.5em;
-        }
-        .slideOutBackground {
-          display:none;
-        }
-        .slideOutBackground.visable {
-          display:block;
-        }
-        @media only screen and (max-width: 900px) {
-          .hero {
-    max-height: 25vh !important;
-    min-height: 25vh !important;
-}
-.row {
-    flex-wrap: wrap;
-}
-.coulmn-half {
-  width:100% !Important;
-}
-.leftHalf {
-    border: 0px !important;
-    margin-bottom: 4em;
-}
-.coulmn-fourth {
-    width: 45% !important;
-    margin-right:0 !important;
-}
-.coulmn-fourth {
-    width: 47% !important;
-    margin-right: 0 !important;
-    margin-bottom: 5% !important;
-}
-.row.text-center.fourths {
-    justify-content: space-between;
-}
-.callOutBtn {
-    font-size: .75em !important;
-}
-.callOut2 {
-    max-width: 80% !important;
-    font-size: .75em !important;
-    margin-bottom:2em !Important;
-}
-.information.callOut2 {
-    width: 100% !important;
-    font-size: 1em !important;
-    margin: 0 0em 2em 0 !important;
-    max-width: 100vw !important;
-}
-        }
-
-
-
     `}</style>
   </div>
 )

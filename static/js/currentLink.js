@@ -1,5 +1,5 @@
 $(window).click(function(){
-  setTimeout(alertFunc, 500);
+  // setTimeout(alertFunc, 500);
   var current = location.pathname;
   $('a').each(function(){
     var $this = $(this);
@@ -10,5 +10,5 @@ $(window).click(function(){
   })
 });
 
-function alertFunc(){
-};
+// function alertFunc(){
+// };
