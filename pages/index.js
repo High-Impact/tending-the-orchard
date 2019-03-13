@@ -1,5 +1,6 @@
 import Header from '../shared/components/Header'
 import Footer from '../shared/components/Footer'
+import FundsRaised from '../shared/components/FundsRaised'
 import Link from 'next/link'
 
 const Index = () => (
@@ -9,19 +10,10 @@ const Index = () => (
       <div className="header-shadow"></div>
     </div>
     <div className="container">
-      <div className="row callOutR">
-        <div className="coulmn-full text-center">
-          <h1 className="callOut">Tending the Orchard</h1>
-          <h2 className="callOut2">At the Orchard, we believe God has called us as a church to grow alongside one another into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.</h2>
-          <Link href="/about">
-            <a className="callOutBtn">Learn More</a>
-          </Link>
-        </div>
-      </div>
-      <div className="row">
+    <div className="row">
         <div className="coulmn-half text-center leftHalf">
           <img src="./static/triangle.png" className="triangle" />
-          <h3 className="money">$50,000</h3>
+          <h3 className="money"><FundsRaised /></h3>
           <p className="moneyP">Funds Raised</p>
         </div>
         <div className="coulmn-half text-center">
@@ -29,7 +21,7 @@ const Index = () => (
           <h3 className="money dark">$100,000</h3>
           <p className="moneyP">Debt Remaining</p>
         </div>
-      </div>
+      </div>      
       <div className="row">
         <div className="coulmn-full text-center">
           <h2 className="callOut overview" >Campaign Overview</h2>
@@ -45,25 +37,25 @@ const Index = () => (
       <div className="row text-center fourths">
       <Link href="/about/who-we-are">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
+          <img src="./static/home/who-we-are.jpg" />
           <h3>Who We Are</h3>
         </div>
         </Link>
         <Link href="/about/core-values">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
+          <img src="./static/home/core-values.jpg" />
           <h3>Core Values</h3>
         </div>
         </Link>
         <Link href="/about/church-history">
         <div className="coulmn-fourth">
-          <img src="./static/hero-img.jpg" />
+          <img src="./static/home/church-history.png" />
           <h3>Church History</h3>
         </div>
         </Link>
         <Link href="/about/testimonies">
         <div className="coulmn-fourth last">
-          <img src="./static/hero-img.jpg" />
+          <img src="./static/home/testimonies.jpg" />
           <h3>Testimonies</h3>
         </div>
         </Link>
@@ -74,16 +66,17 @@ const Index = () => (
       .hero {
         position:relative;
         overflow:hidden;
-        min-height:60vh;
+        min-height:75vh;
         max-height:60vh;
-        background:url("./static/hero-img.jpg");
+        background: url("./static/home-hero.jpg");
         background-size:cover;
+        background-position:top;
       }
       .header-shadow {
         position:absolute;
         height:100%;
         width:100%;
-        background:#000000bf;
+        background: rgba(0,0,0,.5);
       }
       .hero-header {
         position: absolute;

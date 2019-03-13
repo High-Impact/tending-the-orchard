@@ -8,7 +8,7 @@ const Index = () => (
 
 # About
 
-![](/static/staff.jpg)
+![](/static/about.jpg)
 
 __*At the Orchard, we believe God has called us as a church to grow alongside one another into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.*__
 

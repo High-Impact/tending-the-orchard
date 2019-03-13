@@ -10,6 +10,10 @@
     display: block;
 }
 
+.hamburger {
+    display: block !important;
+}
+
 @media only screen and (max-width: 900px) {
     .hero {
         max-height: 25vh !important;

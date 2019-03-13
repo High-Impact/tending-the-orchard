@@ -8,6 +8,8 @@ const churchHistory = () => (
 
 # Who We Are
 
+![](/static/who-we-are.jpg)
+
 __*Rooted in Hope, Branching Out*__
 
 At the Orchard, we believe God has called us as a church to grow alongside one another into Fully Functioning Followers of Jesus; Rooted in Hope and Branching Out to the World.

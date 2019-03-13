@@ -5,7 +5,7 @@ const Navigation = () => (
       <LinkLI url="/about" title="About" />
       <LinkLI url="/get-involved" title="Get Involved" />
       <LinkLI url="/faq" title="F.A.Q." />
-      <LinkLI url="https://highimpact.design" title="Donate" />
+      <LinkLI url="https://orchardmchenry.breezechms.com/give/online" title="Donate" />
       <style jsx>{`
         .navigationMenu {
           display:flex;

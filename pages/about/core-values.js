@@ -8,15 +8,27 @@ const churchHistory = () => (
 
 # Core Values
 
-__*I need content for this page.*__
+## Biblical Teaching
+![](/static/who-we-are.jpg)
 
+## Authentic Worship
+![](/static/who-we-are.jpg)
 
-- Biblical Teaching
-- Authentic Worship
-- Healthy Families
-- Intentional Growth
-- Empowering Leadership
-- Embracing the Lost
+## Authentic Worship
+![](/static/who-we-are.jpg)
+
+## Healthy Families
+![](/static/who-we-are.jpg)
+
+## Intentional Growth
+![](/static/who-we-are.jpg)
+
+## Empowering Leadership
+![](/static/who-we-are.jpg)
+
+## Embracing the Lost
+![](/static/who-we-are.jpg) 
+
       `} />
 
     </Layout>
