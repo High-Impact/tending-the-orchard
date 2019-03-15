@@ -1,6 +1,7 @@
 import Header from '../shared/components/Header'
 import Footer from '../shared/components/Footer'
 import FundsRaised from '../shared/components/FundsRaised'
+import DebtRemaining from '../shared/components/DebtRemaining';
 import Link from 'next/link'
 
 const Index = () => (
@@ -18,7 +19,7 @@ const Index = () => (
         </div>
         <div className="coulmn-half text-center">
           <img src="./static/triangle.png" className="triangle" />
-          <h3 className="money dark">$100,000</h3>
+          <h3 className="money dark"><DebtRemaining /></h3>
           <p className="moneyP">Debt Remaining</p>
         </div>
       </div>      
