@@ -22,7 +22,7 @@ const Index = () => (
           <h3 className="money dark"><DebtRemaining /></h3>
           <p className="moneyP">Debt Remaining</p>
         </div>
-      </div>      
+      </div>
       <div className="row">
         <div className="coulmn-full text-center">
           <h2 className="callOut overview" >Campaign Overview</h2>
@@ -56,7 +56,7 @@ const Index = () => (
         </Link>
         <Link href="/about/testimonies">
         <div className="coulmn-fourth last">
-          <img src="./static/home/testimonies.jpg" />
+          <img src="./static/home/testimonies.JPG" />
           <h3>Testimonies</h3>
         </div>
         </Link>
