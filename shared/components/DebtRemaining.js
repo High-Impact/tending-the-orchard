@@ -1,5 +1,5 @@
-const DebtRemaining = () => ( 
-    <span>$560,963</span>
+const DebtRemaining = () => (
+    <span>$544,736</span>
 )
 
 export default DebtRemaining
