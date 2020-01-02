@@ -1,5 +1,5 @@
 const FundsRaised = () => (
-    <span>$95,373</span>
+    <span>$132,140</span>
     )
 
 export default FundsRaised
